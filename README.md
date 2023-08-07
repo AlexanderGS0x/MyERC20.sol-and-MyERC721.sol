@@ -2,6 +2,7 @@
 ERC20 and ERC721 token contracts to keep track of fungible and non-fungible tokens
 
 Quickstart with OpenZeppelin wizard
+
 Overview about Ethereum Improvement Proposals (EIPs)
 Overview about Application-level standards and conventions (ERCs)
 Explain about OpenZeppelin Contracts library
@@ -10,6 +11,7 @@ Inheritance overview
 Overview about ERC20
 Overview about ERC721
 Using OpenZeppelin wizard
+
 References
 https://eips.ethereum.org/
 
@@ -36,6 +38,7 @@ Plain ERC20 Code reference
     contract MyToken is ERC20 {
         constructor() ERC20("MyToken", "MTK") {}
     }
+
 Plain ERC721 Code reference
     // SPDX-License-Identifier: MIT
     pragma solidity >=0.7.0 <0.9.0;
@@ -45,6 +48,7 @@ Plain ERC721 Code reference
     contract MyToken is ERC721 {
         constructor() ERC721("MyToken", "MTK") {}
     }
+
 Contract structure
 Syntax about inheritance
 Overview about OpenZeppelin features for ERC20 and ERC721
@@ -74,6 +78,7 @@ Event indexing
 Topics and filters
 Transaction structure
 State changes with events
+
 References
 https://docs.soliditylang.org/en/latest/contracts.html#events
 
@@ -87,6 +92,7 @@ Watching for events in tests
 Event syntax with Hardhat Chai Matchers
 Triggering an event
 Checking arguments
+
 References
 https://hardhat.org/hardhat-chai-matchers/docs/overview#events
 
