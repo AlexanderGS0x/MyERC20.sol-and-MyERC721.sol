@@ -13,6 +13,7 @@ Overview about ERC721
 Using OpenZeppelin wizard
 
 References
+
 https://eips.ethereum.org/
 
 https://eips.ethereum.org/erc
@@ -56,7 +57,9 @@ Overview about OpenZeppelin features for Access Control
 Overview about OpenZeppelin utilities and components
 Adding minting feature
 Adding RBAC feature
+
 References
+
 https://www.npmjs.com/package/@openzeppelin/contracts
 
 https://docs.openzeppelin.com/contracts/4.x/extending-contracts
@@ -80,6 +83,7 @@ Transaction structure
 State changes with events
 
 References
+
 https://docs.soliditylang.org/en/latest/contracts.html#events
 
 https://docs.ethers.org/v6/api/contract/#ContractEventName
@@ -94,5 +98,6 @@ Triggering an event
 Checking arguments
 
 References
+
 https://hardhat.org/hardhat-chai-matchers/docs/overview#events
 
